@@ -2,7 +2,7 @@
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 200;
   box-shadow: 0px 1px 3px #2a2a2a;
-  background: image_url('greek-vase.png');
+  /*background: image_url('greek-vase.png'); blocked the nav bar from being seen, decided to comment out- how to fix in the future? */ 
 }
 
 .navbar-inverse a.navbar-brand {
@@ -73,4 +73,7 @@ body {
   border-radius: 3px;
   padding: 2px 8px 2px 8px;
   margin: 10px;
+}
+.clr {
+  clear: both;
 }
